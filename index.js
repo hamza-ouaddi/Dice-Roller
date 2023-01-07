@@ -4,7 +4,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 var randomRedDices = "red-dice-" + randomNumber1 + ".png";
 
-var randomRedDicesSource = "/images/" + randomRedDices;
+var randomRedDicesSource = "/Dice-Roller/images/" + randomRedDices;
 
 var redImage = document.querySelectorAll("img")[0];
 redImage.setAttribute("src", randomRedDicesSource);
@@ -15,7 +15,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 var randomBlueDice = "blue-dice-" + randomNumber2 + ".png";
 
-var randomBlueDiceSource = "/images/" + randomBlueDice;
+var randomBlueDiceSource = "/Dice-Roller/images/" + randomBlueDice;
 
 var blueImage = document.querySelectorAll("img")[1];
 blueImage.setAttribute("src", randomBlueDiceSource);
