@@ -1,0 +1,42 @@
+body {
+  background-color: #fcffe7;
+}
+
+.container {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #2b3467;
+  font-size: 6rem;
+  font-weight: 800;
+  text-shadow: 4px 0 #bad7e9;
+}
+
+.dice {
+  display: inline-block;
+  margin: 0 4% 0 4%;
+}
+
+.dice img {
+  width: 50%;
+}
+
+h3 {
+  color: #2b3467;
+  font-size: 1.5rem;
+}
+
+.roll-btn {
+  margin: 5% 0 0;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 32px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Refresh Me!</h1>
+      <div class="dice" id="red-dice">
+        <h3 id="player_one">Player 1</h3>
+        <img src="/images/red-dice-6.png" />
+      </div>
+      <div class="dice" id="blue-dice">
+        <h3 id="player_two">Player 2</h3>
+        <img src="/images/blue-dice-6.png" alt="" />
+      </div>
+      <div>
+        <button
+          class="roll-btn"
+          type="button"
+          onClick="window.location.reload()"
+        >
+          Roll
+        </button>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
